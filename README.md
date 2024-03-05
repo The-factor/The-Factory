@@ -12,4 +12,4 @@ Information:
 
 [The Discord](https://discord.gg/R4zkpqDzD2)
 
-[Curseforge link](inserthere)
+[Curseforge Page](inserthere) [Currently broken]
