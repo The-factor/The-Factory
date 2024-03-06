@@ -11,5 +11,5 @@ Quest system (coming in beta or in a full release)
 Information:
 
 [Discord Factory](https://discord.gg/R4zkpqDzD2)
-[Curseforge Factory](https://www.curseforge.com/minecraft/modpacks/autofactory) 
-(**Curseforge is using Normal Forge not Neoforge like the actual pack**)
+
+[Curseforge Factory](https://www.curseforge.com/minecraft/modpacks/autofactory) (**Curseforge is using Normal Forge not Neoforge like the actual pack**)
