@@ -79,6 +79,8 @@
   "ae2:part_icon": null,
   "ae2:part_tooltip": null,
   "ae2:part_mod_name": null,
+  "expatternprovider:tile_data": null,
+  "expatternprovider:jade_wireless": null,
   "extendedcrafting:crafting_core": null,
   "extendedcrafting:basic_table": null,
   "extendedcrafting:advanced_table": null,
@@ -158,5 +160,7 @@
   "ae2:part_name": null,
   "ae2:part_icon": null,
   "ae2:part_tooltip": null,
-  "ae2:part_mod_name": null
+  "ae2:part_mod_name": null,
+  "expatternprovider:tile_data": null,
+  "expatternprovider:jade_wireless": null
 }

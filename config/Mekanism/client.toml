@@ -70,8 +70,8 @@
 		[client.gui.window]
 
 			[client.gui.window.color]
-				x = 2147483647
-				y = 2147483647
+				x = 44
+				y = 33
 
 			[client.gui.window.confirmation]
 				x = 18
@@ -102,7 +102,7 @@
 				y = 2147483647
 
 			[client.gui.window.sideConfig]
-				x = 12
+				x = 9
 				y = 15
 
 			[client.gui.window.transporterConfig]
@@ -110,8 +110,8 @@
 				y = 2147483647
 
 			[client.gui.window.upgrade]
-				x = 10
-				y = 15
+				x = 13
+				y = 41
 
 	#QIO Config
 	[client.qio]
