@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "helpful_items"
+	group: "700436F4602B4595"
+	icon: {
+		Count: 1b
+		id: "constructionwand:infinity_wand"
+		tag: {
+			wand_options: { }
+		}
+	}
+	id: "2335A513237686CF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "helpful Items"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "09F52653DE876F38"
+	icon: "botania:gaia_ingot"
+	id: "542AC7EC51297B1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Botania"
+}

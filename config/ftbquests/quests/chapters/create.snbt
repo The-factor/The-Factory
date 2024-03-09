@@ -1,0 +1,567 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "51F1E54456BEAE97"
+	icon: {
+		Count: 1b
+		id: "create:wrench"
+		tag: { }
+	}
+	id: "2FE5886D89CC218E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Create is an automation based mod that can do anything from trains to ore doubling to making a rotating house. It has something for everyone and is visually pleasing. I would highly reccomend you make use of the Ponder feature of Create, which can be accessed by hovering over a specific block from the mod, and holding the \"w\" key."]
+			icon: {
+				Count: 1b
+				id: "create:wrench"
+				tag: { }
+			}
+			id: "28F02F89010A3B67"
+			rewards: [
+				{
+					id: "2BCFB0B1FF7B7EEE"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "2DBB5E30E244B27C"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			subtitle: "Create > Immersive Engineering"
+			tasks: [{
+				id: "5961580DB2746FBE"
+				title: "Welcome To Create"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28F02F89010A3B67"]
+			description: ["Andesite Alloy is an essential component of Andesite Casings, which are used in most machines."]
+			id: "2975991588249825"
+			subtitle: "The Building Blocks of Building Blocks"
+			tasks: [{
+				id: "125E13DC53F39653"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2975991588249825"]
+			description: ["Andesite Casing is very essential in Create, you'll need a lot of this. It is created by right-clicking a stripped log while holding at least one andesite alloy."]
+			id: "13C62073194F6B87"
+			rewards: [{
+				count: 9
+				id: "54906E37B0BC016A"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "Wooden Machinery"
+			tasks: [{
+				id: "5E106B11AD2E96B7"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13C62073194F6B87"]
+			description: ["Used to automatically mine blocks. Most common applications are as a tunnel bore or on a cobble gen."]
+			id: "63F3D06137B0D9C4"
+			subtitle: "The Dig of 23"
+			tasks: [{
+				id: "74A0964427BFCA8B"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2975991588249825"]
+			description: ["A shaft is used to transfer rotational energy, they can be place lineraly both vertically and horizontally."]
+			id: "1F78F951B004D942"
+			subtitle: "No Not That Kind"
+			tasks: [{
+				id: "21BF18FBEA294F2D"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2975991588249825"]
+			description: ["The small cogwheel can be used in conjunction with shafts to transfer rotational energy."]
+			id: "68E2E8F18411DFE4"
+			subtitle: "Tiny Rotation"
+			tasks: [{
+				id: "69F63060EBA62127"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F78F951B004D942"]
+			description: ["The water wheel is the easiest, but also weakest rotational source in the game. It will spin very slow, and have a low stress capacity. Stress is essentially a limit for how many different Create Contraptions can be used on one rotational network. If it is reached, everything will stop working. This can be counteracted by adding more waterwheels."]
+			id: "7E23C7EEB30B5180"
+			subtitle: "Smol Rotation"
+			tasks: [{
+				id: "5080E60F8D490597"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E23C7EEB30B5180"]
+			description: ["The large water wheel functions the same as a normal water wheel, except it has a much higher stress capacity. The downside is it spins much slower."]
+			id: "288A6595DD097A45"
+			subtitle: "Stronk Spin"
+			tasks: [{
+				id: "7A7EA8429E42C7A7"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68E2E8F18411DFE4"]
+			description: ["Functions the same as a small cogwheel, except its' bigger. Can be used in conjunction with a regular cogwheel as a primative method to change rotation speed."]
+			id: "232C9E5D1CF43DE9"
+			subtitle: "Bigger Spinner"
+			tasks: [{
+				id: "448186E63F816ED0"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2975991588249825"]
+			description: ["The hand crank can be used for quick rotaitonal energy. But it is weak and only provides a small amount of rotational energy. It also drains your hunger quicker."]
+			id: "67BA6B1F28FE633A"
+			subtitle: "Manual Labor"
+			tasks: [{
+				id: "1A5B2AF6F8798F49"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13C62073194F6B87"]
+			description: ["An early-game low-cost solution to crushing."]
+			id: "4A74FC41E303DBE1"
+			subtitle: "Crushed Dreams"
+			tasks: [{
+				id: "70397A13A0992B93"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E9EAF6653B739C8"]
+			description: ["A Mechanical Saw is used primarily in cutting recipes and can chop down tress automatically."]
+			id: "43558BB22D8FB5B2"
+			rewards: [{
+				count: 16
+				id: "274B9AE79464BD86"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "Saw XI (Real)"
+			tasks: [{
+				id: "3616D4763DEAD9B5"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E9EAF6653B739C8"]
+			description: ["Used in conjunction with the basin to do various mixing recipes."]
+			id: "2B61CB4F8EA7F294"
+			rewards: [{
+				count: 24
+				id: "6BF654BACD949CCC"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "Mixed Feelings"
+			tasks: [{
+				id: "6CEAD82FE0FCA6F1"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11F5FFBA166718BD"]
+			description: ["The deployer has two uses. The first is placing/clicking blocks. The second is multi-stage recipes. Use Ponder for a better explanation."]
+			id: "3F5C2249AD1A1556"
+			subtitle: "The Touchening"
+			tasks: [{
+				id: "3217B90C3BC24F7B"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2975991588249825"]
+			description: ["Can be used in conjuncture with Either the Mechanical Press or the Mechanical Mixer for both fluid and item recipes."]
+			id: "1F5E8A486D04D838"
+			subtitle: "Based"
+			tasks: [{
+				id: "04ACA5F768172F60"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13C62073194F6B87"]
+			description: ["The depot can be used for temporary item storage for an item that will be used in a recipe. For example, if you place a depot below a mechanical press, and then put iron ingots on it, the ingots will not despawn, but the press will still turn them all into plates."]
+			id: "388C13AE05BDB250"
+			subtitle: "Standing Here"
+			tasks: [{
+				id: "5D1A9F70CE7619B9"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13C62073194F6B87"]
+			description: ["The Mechanical Press can be used to compress various items into different forms, as well as turning ingots into plates."]
+			id: "3E9EAF6653B739C8"
+			rewards: [{
+				count: 12
+				id: "30766B1B379A354D"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			subtitle: "Pressing Matters"
+			tasks: [{
+				id: "78D84862FDD409F9"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["13C62073194F6B87"]
+			description: ["The Gearbox can be used to shift rotation across conflicting axes. It can also be turned vertical."]
+			id: "44D8FA7C45D9DFE8"
+			rewards: [{
+				count: 4
+				id: "7EC277A09A1DDDB6"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			subtitle: "Move That Gear Up"
+			tasks: [{
+				id: "58756CC59464B9E2"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28F02F89010A3B67"]
+			description: ["Dried Kelp is used to make belts."]
+			id: "4F14986407115E54"
+			subtitle: "Fossil Fuels Jumpscare"
+			tasks: [{
+				id: "26ED5FF9C5A19401"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F14986407115E54"]
+			description: ["A Mechanical Belt can be used in conjunction with Shafts to create Conveyor Belts, which can both transfer rotational energy and items."]
+			id: "563EF8A08FBDA53A"
+			subtitle: "The  B E L T"
+			tasks: [{
+				id: "7355414863C10F17"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E9EAF6653B739C8"]
+			description: ["Electron Tubes are used in some of the more advanced Create recipes, and require Polished Rose Quartz to craft. This can be automated eventually, but for now hold Rose Quartz in one hand and Sand Paper in the other. Hold down Right-Mouse Button in order to craft Polished Rose Quartz"]
+			id: "11F5FFBA166718BD"
+			subtitle: "Electron Volt"
+			tasks: [
+				{
+					id: "49E516E47F54BB37"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					id: "41101C162492B6B3"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "73B110F59DA5CB69"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0445F94D529343B7"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3E9EAF6653B739C8"]
+			description: ["The Mechanical Harvester can be used to automatically harvest most crops, including underwater."]
+			id: "2CA3E71332D2AC95"
+			rewards: [{
+				count: 16
+				id: "77EDB37E04A3457A"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "Better Than Barbed Wire"
+			tasks: [{
+				id: "77424FB18EC467B8"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F14986407115E54"]
+			description: ["Funnels are used to automatically tansfer items in and out of machines, typically on to belts."]
+			id: "5383242CB3EE45CA"
+			rewards: [{
+				count: 4
+				id: "249861FC3333A26B"
+				item: "create:chute"
+				type: "item"
+			}]
+			subtitle: "Pop Goes The Weasel"
+			tasks: [{
+				id: "40F916B6B5514EB7"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["11F5FFBA166718BD"]
+			description: ["The Crafter is Create's solution to autocrafting, each crafter block representing one crafting slot. However, the slots can exceed the standard 3x3x3, which allows for bigger machines to be constructed."]
+			id: "74AFE45A5AF771EB"
+			subtitle: "Big Crafting"
+			tasks: [{
+				id: "2E530C1E52586131"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["74AFE45A5AF771EB"]
+			description: ["Using two Crushing Wheels you can mass crush items, with a much greater throughput and speed than the Mechanical Crusher."]
+			id: "225F0EB51DD4E2C6"
+			rewards: [{
+				count: 32
+				id: "4763BF75D6B605E6"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			subtitle: "Gordon Freeman Vs. Garbage Compactor"
+			tasks: [{
+				id: "1DB789D87293D013"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F5C2249AD1A1556"]
+			description: ["Precision Mechanisms are used in very advanced Create recipes and require deployers to craft. The crafting process is long and expensive, if you cant figure it out, look up a Youtube tutorial."]
+			id: "6CE7A85A9B6BBF6F"
+			subtitle: "Discount Gregification"
+			tasks: [{
+				id: "74B18B7F74DEAF4C"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"55A0FF52D77863E1"
+				"6CE7A85A9B6BBF6F"
+			]
+			description: ["Used to control a train."]
+			id: "3A75739399C1FD7A"
+			rewards: [{
+				count: 8
+				id: "1D01A0C0AC387B06"
+				item: "create:red_seat"
+				type: "item"
+			}]
+			subtitle: "I Like Trains"
+			tasks: [{
+				id: "6A206D78E4816A9F"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55A0FF52D77863E1"]
+			description: ["Pretty self-explanatory. You'll need a lot of this."]
+			id: "18A1EBFE5C55C465"
+			rewards: [{
+				count: 16
+				id: "53732634953AAB35"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "Going Off The Rails On a Crazy Train"
+			tasks: [{
+				id: "28EC283E79298813"
+				item: "create:track"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56D9AB936BB186A4"]
+			description: ["Trains are inbound! They are very interesting, with uses ranging from transportation to mining."]
+			id: "55A0FF52D77863E1"
+			subtitle: "I Like Trains"
+			tasks: [{
+				id: "0DB1FE5797EC5173"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["13C62073194F6B87"]
+			description: ["Brass Casing are typically used in Create machines that more allign with assisting automation, rather than producing an item."]
+			id: "56D9AB936BB186A4"
+			subtitle: "Brains of The Brass"
+			tasks: [{
+				id: "5D148447ECFB8CA9"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["13C62073194F6B87"]
+			description: ["Copper Casings are used for fluid-based Create machines."]
+			id: "268AC29BEC840159"
+			subtitle: "Get To The Copper!"
+			tasks: [{
+				id: "2C9C1124A4A9DB1A"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["55A0FF52D77863E1"]
+			description: ["I suggest you use ponder, I would not be able to effectively communicate how these work through this description."]
+			id: "59A73B4471026F94"
+			subtitle: "Platform Nine and Three-Quarters"
+			tasks: [{
+				id: "5103F08A0E3A8C03"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			description: ["Super Glue, as the name implies, is glue used to bind blocks to each other, typically for multiblock creations."]
+			id: "6025FFB96E5D19C1"
+			subtitle: "My Gloo Cannon"
+			tasks: [{
+				id: "2608438C2DDDF065"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74AFE45A5AF771EB"]
+			description: ["Used to Convert Redstone Flux (RF) --> Stress Units (SU)"]
+			id: "5FB603AD29289D1F"
+			subtitle: "Hopefully Won't Explode Like My friend's Car's Engine"
+			tasks: [{
+				id: "0536CADBDCB67E5C"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+	]
+	subtitle: ["Really Cool"]
+	title: "Create"
+}

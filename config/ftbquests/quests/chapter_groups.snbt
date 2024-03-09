@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "1498E6C480ADBAD3", title: "Information" }
+		{ id: "51F1E54456BEAE97", title: "Getting Started" }
+		{ id: "58FD3B8F5A50746C", title: "Tech" }
+		{ id: "09F52653DE876F38", title: "Magic" }
+		{ id: "700436F4602B4595", title: "Miscellaneous" }
+	]
+}

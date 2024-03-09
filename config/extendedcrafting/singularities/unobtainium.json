@@ -1,0 +1,12 @@
+{
+    "name": "Unobtainium",
+    "colors": [
+      "9403fc",
+      "5a03fc"
+    ],
+    "materialCount": 48,
+    "ingredient": {
+        "item": "allthemodium:unobtainium_block"
+    },
+    "inUltimateSingularity": true
+  }

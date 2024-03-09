@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	default_quest_size: 1.5d
+	filename: "welcome"
+	group: "1498E6C480ADBAD3"
+	id: "51F32CF9D2E1D8A7"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "factory:textures/quests/questinfotablogo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			click: "https://discord.gg/KZqcf7pVYm"
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["Click me to go to the Discord!"]
+			image: "factory:textures/quests/factorydiscordlogo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			click: "https://github.com/Derek1256/TheFactory"
+			color: 13750479
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["Click me to go to the github!"]
+			image: "factory:textures/quests/factorygithublogo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Goal of the pack is to have fun and fully automate the \"&3&o&lFactory medal&r\" and use it to craft some creative items! "
+				"{ \"text\": \"Head over to and get started on the basics!\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"14E25AAB43AA6F44\" } }"
+			]
+			id: "4028EFD528F6A15B"
+			rewards: [{
+				count: 4
+				id: "218209034A8704FD"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&l&fClick the images on the sides to go to their respective link!"
+			tasks: [{
+				id: "3897F310C0986D19"
+				title: "Welcome to The Factory!"
+				type: "checkmark"
+			}]
+			x: 1.0892857142857153d
+			y: -0.625d
+		}
+		{
+			description: ["Alot of stuff will either not exist (like in create chapter it wont have addons, this is because i either dont know the mods or how to word them so if youd like to contribute to that you can either PR on github those quests or join the discord and submit em :)"]
+			id: "68D3E31EA2BB2566"
+			size: 2.0d
+			subtitle: "&b&lPLEASE READ"
+			tasks: [{
+				id: "35E32E53A7545AA7"
+				title: "About certain questlines."
+				type: "checkmark"
+			}]
+			x: 1.0892857142857153d
+			y: 2.0d
+		}
+	]
+	title: "Welcome"
+}

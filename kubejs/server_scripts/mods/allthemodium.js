@@ -12,4 +12,4 @@ ServerEvents.recipes(factory => {
     factory.shaped('allthemodium:unobtainium_block', ['BBB', 'BBB', 'BBB'], {B: 'allthemodium:unobtainium_ingot'})
 })
 
-console.log('Fuck you console, Allthemodium.js loaded')
+console.log('Allthemodium.js loaded')

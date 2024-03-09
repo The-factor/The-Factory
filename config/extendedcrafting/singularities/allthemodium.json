@@ -1,0 +1,12 @@
+{
+    "name": "allthemodium",
+    "colors": [
+      "fcd703",
+      "fcc203"
+    ],
+    "materialCount": 128,
+    "ingredient": {
+        "item": "allthemodium:allthemodium_block"
+    },
+    "inUltimateSingularity": true
+  }

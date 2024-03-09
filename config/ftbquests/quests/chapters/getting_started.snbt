@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "51F1E54456BEAE97"
+	icon: "minecraft:grass_block"
+	id: "14E25AAB43AA6F44"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["every playthrough needs you  to break trees at some point might aswell get this out the way."]
+			icon: "minecraft:oak_log"
+			id: "7BBBB52AFC88B7BA"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "1B9D10B828CE688E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				match_nbt: false
+				title: "Any #minecraft:logs"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Gather your first logs"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BBBB52AFC88B7BA"]
+			description: ["The game starts here. Make your 1st crafting table"]
+			id: "3EF66440860597BD"
+			rewards: [
+				{
+					id: "1D78C821B5B2C631"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51ED6D4F40BD6267"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "009CF6C7B64BBCB0"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5099B24E24160B6A"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EF66440860597BD"]
+			description: ["Cobble = Life, here we go"]
+			id: "7CBA6905B7FEECA7"
+			tasks: [{
+				count: 32L
+				id: "6FAA72562B54030A"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Cobblestone"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7CBA6905B7FEECA7"]
+			description: ["Set of Stone Tools"]
+			id: "34E7384F543FCAA7"
+			tasks: [
+				{
+					id: "673E4F7D028DF314"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E4216362A9E367B"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52FF78C8D27316DE"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stone Tools"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34E7384F543FCAA7"]
+			description: ["The Start of your journey. Make some iron &o(I Recommend getting a stack to start)&r"]
+			id: "19F421C461D2D211"
+			rewards: [{
+				count: 4
+				id: "21FDA2E62CE2D25B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7909C684E3767DD4"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Iron Ingots"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19F421C461D2D211"]
+			description: ["&lSet of Iron tools"]
+			id: "2E6E2B86A56F903B"
+			tasks: [
+				{
+					id: "10BE544A76494B05"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D16A2A3515500A8"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69D8BDED5F48270C"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Tools"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CBA6905B7FEECA7"]
+			description: ["Used to Smelt Ores, and other things (Obviously)"]
+			id: "5B4D38DFE52190B9"
+			tasks: [{
+				id: "67F965A7575FA87D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19F421C461D2D211"]
+			description: ["Time for some diamonds"]
+			id: "00F28D5C1704F369"
+			rewards: [{
+				count: 4
+				id: "3B6BFC67D14F7915"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3EB7476D92EE606A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamonds"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00F28D5C1704F369"]
+			description: ["&b&lSet of Diamond Tools"]
+			id: "020C424300A12EB9"
+			tasks: [
+				{
+					id: "1ED7A2AE16FBD442"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1ABC4B83729051AB"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6423425848858231"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Tools"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00F28D5C1704F369"]
+			description: ["&b&lSet of Diamond Armor"]
+			id: "20F15B37DF363651"
+			tasks: [
+				{
+					id: "5BF3B82A2AB84965"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "194B8BE9DC41F970"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ABC258B01F53B1F"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A48338FBAB6A15F"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Armor"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00F28D5C1704F369"]
+			description: ["Visit the nether"]
+			id: "17978C74B2C183F7"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "3250AFB2508E5B1F"
+					title: "Visit the nether"
+					type: "dimension"
+				}
+				{
+					count: 10L
+					id: "381DFD550A8CAA82"
+					item: "minecraft:obsidian"
+					title: "Obsidian"
+					type: "item"
+				}
+			]
+			title: "Nether Portal"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17978C74B2C183F7"]
+			description: ["Time to head over to some other quest chapters and get started on those!"]
+			id: "17F29AA8E05170E9"
+			tasks: [{
+				id: "631664A63F50D9B4"
+				title: "Mods"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+	]
+	title: "Minecraft"
+}

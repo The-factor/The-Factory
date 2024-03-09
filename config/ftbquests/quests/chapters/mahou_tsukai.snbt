@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mahou_tsukai"
+	group: "09F52653DE876F38"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			Parent: {
+				MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+				MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+			}
+		}
+		id: "mahoutsukai:caliburn"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "20A6BB47F02670DF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mahou Tsukai"
+}

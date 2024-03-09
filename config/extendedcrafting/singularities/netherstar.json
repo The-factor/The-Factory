@@ -1,0 +1,12 @@
+{
+    "name": "Nether Star",
+    "colors": [
+      "f7faf9",
+      "7703fc"
+    ],
+    "materialCount": 576,
+    "ingredient": {
+        "item": "extendedcrafting:nether_star_block"
+    },
+    "inUltimateSingularity": true
+  }

@@ -1,9 +1,0 @@
-{
-	"x": -100,
-	"y": 96,
-	"width": 200,
-	"height": 20,
-	"langKey": "menu.quit",
-	"texture": "factory:textures/gui/widgets.png",
-	"action": "QUIT"
-}
