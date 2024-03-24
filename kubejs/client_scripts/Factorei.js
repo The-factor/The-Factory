@@ -23,4 +23,8 @@ JEIEvents.addItems(factory => {
     factory.add('ironfurnaces:upgrade_unobtainium')
     factory.add('ironfurnaces:vibranium_furnace')
     factory.add('ironfurnaces:unobtainium_furnace')
+
+    factory.add('factory:medal')
+
+    factory.add('extendedcrafting:ultimate_singularity')
 })
