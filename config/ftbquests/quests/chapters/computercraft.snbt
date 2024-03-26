@@ -1,0 +1,271 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "computercraft"
+	group: "700436F4602B4595"
+	icon: "computercraft:computer_advanced"
+	id: "0D58A3FAFBC047A8"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.5d
+		hover: [ ]
+		image: "computercraft:textures/gui/buttons/turned_on.png"
+		rotation: 0.0d
+		width: 3.5d
+		x: 0.5d
+		y: -7.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Download the catalog with the command: pastebin get i87F87G8 catalog"
+				""
+				"Press numbers 0 - 3 to switch catagories"
+			]
+			id: "4ED78105FF7C804E"
+			rewards: [
+				{
+					count: 16
+					id: "1B409DE87418B67F"
+					item: "computercraft:cable"
+					type: "item"
+				}
+				{
+					command: "/give @s written_book{pages:['[\"\",{\"text\":\"CC Programs:\",\"color\":\"dark_red\"},{\"text\":\"\\\\npastebin get i87F87G8 catalog\",\"color\":\"reset\"}]'],title:\"CC Programs\",author:\"The Factory OS\"}"
+					elevate_perms: true
+					icon: "computercraft:printed_book"
+					id: "2C7916966ED9F6A5"
+					silent: true
+					title: "&c&lCC Programs."
+					type: "command"
+				}
+			]
+			subtitle: "&cClaim your free Programs book!"
+			tasks: [{
+				id: "34CA790A8C46E924"
+				title: "Computer Craft"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ED78105FF7C804E"]
+			description: ["Craft a basic CC computer this terminal is a black and white terminal. The start of CC."]
+			id: "0A06D51FA97B32A7"
+			tasks: [{
+				id: "29F69E545B9EBF1F"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A06D51FA97B32A7"]
+			description: ["Craft an Advanced computer, this allows for Colour image and mouse input."]
+			id: "64E58DF05CA4F024"
+			tasks: [{
+				id: "3280855481BB7F79"
+				item: "computercraft:computer_advanced"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4ED78105FF7C804E"]
+			description: ["A portable basic computercraft terminal. Reduced resolution."]
+			id: "0C5B80D8E76412A6"
+			tasks: [{
+				id: "65A9C40226EF21CA"
+				item: "computercraft:pocket_computer_normal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ED78105FF7C804E"]
+			description: ["This computer uses Ender modems, which allow for cross dimension communication."]
+			id: "1E693809F4997A83"
+			tasks: [{
+				id: "5A4B8CEE2B429E65"
+				item: {
+					Count: 1b
+					id: "computercraft:pocket_computer_normal"
+					tag: {
+						Upgrade: "computercraft:wireless_modem_advanced"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ED78105FF7C804E"]
+			description: ["Remote connect to other computers with a modem attached on Rednet. Black and white basic terminal."]
+			id: "2C92041D935AE0FE"
+			tasks: [{
+				id: "13FD7375C465F584"
+				item: {
+					Count: 1b
+					id: "computercraft:pocket_computer_normal"
+					tag: {
+						Upgrade: "computercraft:wireless_modem_normal"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4ED78105FF7C804E"]
+			description: [
+				"This computer is like a MP3 player, and can play music. (Run pastebin run swsmNAf7 and then run"
+				"youcube to get a youtube client)"
+			]
+			id: "23749D9853BE669C"
+			tasks: [{
+				id: "760F0956BCA49524"
+				item: {
+					Count: 1b
+					id: "computercraft:pocket_computer_normal"
+					tag: {
+						Upgrade: "computercraft:speaker"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C5B80D8E76412A6"]
+			description: ["Colour version of the pocket computer from earlier."]
+			id: "4341CF277734CB33"
+			tasks: [{
+				id: "4C61EAF6BCD0FA6E"
+				item: "computercraft:pocket_computer_advanced"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E693809F4997A83"]
+			description: ["Advanced computer that can communicate across dimensions, and in colour."]
+			id: "2F716680FFE7CFC6"
+			tasks: [{
+				id: "11971EB6C8807580"
+				item: {
+					Count: 1b
+					id: "computercraft:pocket_computer_advanced"
+					tag: {
+						Upgrade: "computercraft:wireless_modem_advanced"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C92041D935AE0FE"]
+			description: ["Computer that can communicate on the same dimension, with other modem equipped computers. With a colour screen."]
+			id: "3E03D80C1A17BA4C"
+			tasks: [{
+				id: "770CB7373746FD1D"
+				item: {
+					Count: 1b
+					id: "computercraft:pocket_computer_advanced"
+					tag: {
+						Upgrade: "computercraft:wireless_modem_normal"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23749D9853BE669C"]
+			description: ["Same as  the last computer, but now with a colour screen."]
+			id: "2DD2E3439DC130D7"
+			tasks: [{
+				id: "2A8FCD0058231E80"
+				item: {
+					Count: 1b
+					id: "computercraft:pocket_computer_advanced"
+					tag: {
+						Upgrade: "computercraft:speaker"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ED78105FF7C804E"]
+			description: ["A basic screen that is ran using \"Monitor (put side here, eg:top) (command you want to run)\""]
+			id: "6C5370720533AAAC"
+			tasks: [{
+				id: "2AF13E9DD691C03B"
+				item: "computercraft:monitor_normal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C5370720533AAAC"]
+			description: ["Same as last monitor, but in colour and with touch support, best works with a Advanced computer."]
+			id: "42CC8C82A76F0980"
+			tasks: [{
+				id: "0B8B55196A5B035B"
+				item: "computercraft:monitor_advanced"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ED78105FF7C804E"]
+			description: ["Craft the networking components of CC, this allows for computers to communicate together on a Rednet network (Not needed for IRL TCP/IP connections) Ender modems can communicate across dimensions."]
+			id: "039F2F37B1C4B9B3"
+			tasks: [
+				{
+					id: "486CB12634E6191D"
+					item: "computercraft:wired_modem"
+					type: "item"
+				}
+				{
+					id: "5D19EAB52C0B6F00"
+					item: "computercraft:wired_modem_full"
+					type: "item"
+				}
+				{
+					id: "28DBA5102ECCEB70"
+					item: "computercraft:wireless_modem_advanced"
+					type: "item"
+				}
+				{
+					id: "25B86CAFF0E15311"
+					item: "computercraft:wireless_modem_normal"
+					type: "item"
+				}
+			]
+			title: "Modems"
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	title: "&6&lCC: Tweaked"
+}

@@ -5,6 +5,18 @@
 	group: "51F1E54456BEAE97"
 	icon: "minecraft:grass_block"
 	id: "14E25AAB43AA6F44"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 4.0d
+		hover: [ ]
+		image: "minecraft:textures/gui/title/minecraft.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 6.0d
+		y: -5.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -354,7 +366,12 @@
 		}
 		{
 			dependencies: ["17978C74B2C183F7"]
-			description: ["Time to head over to some other quest chapters and get started on those!"]
+			description: [
+				"&9Time to head over to some other quest chapters and get started on those! some ones id recommend starting,&r "
+				"{ \"text\": \"Applied Energistics 2\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7040E1EDCA982C27\" } }, "
+				"{ \"text\": \"Mekanism\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A06B56F13FC78E1\" } }, "
+				"{ \"text\": \"Create\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2FE5886D89CC218E\" } }"
+			]
 			id: "17F29AA8E05170E9"
 			tasks: [{
 				id: "631664A63F50D9B4"
