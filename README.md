@@ -8,4 +8,5 @@ Quest system (coming in beta or in a full release)
 
 Information:
 [Github Factory](https://github.com/Derek1256/TheFactory/tree/main)
+
 [Curseforge Factory](https://www.curseforge.com/minecraft/modpacks/thefactory1) (**Curseforge is using Normal Forge not Neoforge like the actual pack Why? because curse filters dont know that forge and neo are intercompat in 1.20.1**)
