@@ -15,4 +15,4 @@ Information:
 , [Curseforge Factory](https://www.curseforge.com/minecraft/modpacks/thefactory1) (**Curseforge is using Normal Forge not Neoforge like the actual pack Why? because curse filters dont know that forge and neo are intercompat in 1.20.1**)
 
 
-[![Curse Forge](http://cf.way2muchnoise.eu/full_thefactory1.svg)]([https://minecraft.curseforge.com/projects/enigmatica2expert](https://www.curseforge.com/minecraft/modpacks/thefactory1))
+[![Curse Forge](http://cf.way2muchnoise.eu/fullthefactory1.svg)]([https://minecraft.curseforge.com/projects/enigmatica2expert](https://www.curseforge.com/minecraft/modpacks/thefactory1))
