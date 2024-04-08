@@ -1,3 +1,24 @@
 {
-  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config"
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:ingots/aluminum": "alltheores:aluminum_ingot",
+  "forge:ingots/constantan": "alltheores:constantan_ingot",
+  "forge:ingots/tungsten": "null",
+  "forge:ingots/mithril": "null",
+  "forge:ingots/iridium": "alltheores:iridium_ingot",
+  "forge:gems/sapphire": "alltheores:sapphire",
+  "forge:ingots/invar": "alltheores:invar_ingot",
+  "forge:gems/ruby": "alltheores:ruby",
+  "forge:dusts/niter": "null",
+  "forge:ingots/chrome": "null",
+  "forge:ingots/electrum": "alltheores:electrum_ingot",
+  "forge:silicon": "ae2:silicon",
+  "forge:gems/apatite": "null",
+  "forge:ingots/silver": "alltheores:silver_ingot",
+  "forge:dusts/saltpeter": "null",
+  "forge:ingots/titanium": "null",
+  "forge:rubber": "null",
+  "forge:ingots/platinum": "alltheores:platinum_ingot",
+  "forge:ingots/graphite": "null",
+  "forge:gems/peridot": "alltheores:peridot",
+  "forge:ingots/nickel": "alltheores:nickel_ingot"
 }

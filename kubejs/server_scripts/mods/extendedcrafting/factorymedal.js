@@ -26,7 +26,7 @@ ServerEvents.recipes(factory => {
             "item": "create_things_and_misc:vibration_mechanism"
           },
           "T": {
-            "item": "minecraft:bedrock"
+            "item": "ae2:singularity"
           },
           "Y": {
             "item": "ars_nouveau:archmage_spell_book"
