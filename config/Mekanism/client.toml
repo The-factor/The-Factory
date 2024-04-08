@@ -24,7 +24,7 @@
 	#Enable item information HUD during gameplay
 	enableHUD = true
 	#Color of energy in item durability display.
-	energyColor = 3997338
+	energyColor = 5be03d
 	#Range at which Tile Entity Renderer's added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for TERs to 64 for most blocks, but uses a range of 256 for beacons and end gateways.
 	#Range: 1 ~ 1024
 	terRange = 256
@@ -123,8 +123,8 @@
 		itemViewerSortDirection = "DESCENDING"
 		#Number of slots to view horizontally on a QIO Item Viewer.
 		#Range: 8 ~ 16
-		itemViewerSlotsX = 8
+		itemViewerSlotsX = 12
 		#Number of slots to view vertically on a QIO Item Viewer.
 		#Range: 2 ~ 48
-		itemViewerSlotsY = 12
+		itemViewerSlotsY = 24
 

@@ -24,7 +24,7 @@
 	#Meka-Bow Settings
 	[weapons.mekabow]
 		#Attention: The final damage of Meka-Bow is based on how fast the arrow is going when hits, multiply it with Attack Amplification Units.
-		baseDamage = 50
+		baseDamage = 15
 		#Cost in Joules of using the Meka-Bow.
 		energyUsage = "625000"
 		#Cost in Joules of using the Meka-Bow with flame mode active.
