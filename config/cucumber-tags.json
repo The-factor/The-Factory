@@ -14,7 +14,7 @@
   "forge:silicon": "ae2:silicon",
   "forge:gems/apatite": "null",
   "forge:ingots/silver": "alltheores:silver_ingot",
-  "forge:dusts/saltpeter": "null",
+  "forge:dusts/saltpeter": "immersiveengineering:dust_saltpeter",
   "forge:ingots/titanium": "null",
   "forge:rubber": "null",
   "forge:ingots/platinum": "alltheores:platinum_ingot",

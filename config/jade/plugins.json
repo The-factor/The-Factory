@@ -57,6 +57,9 @@
   "entangled": {
     "entangled_block_component": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -120,6 +123,9 @@
   },
   "supplementaries": {
     "hat_stand": true
+  },
+  "waystones": {
+    "waystone": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,
