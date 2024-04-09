@@ -1,0 +1,13 @@
+filename = 'almostunified-forge-1.20.1-0.9.0.jar'
+name = 'Almost Unified'
+side = 'both'
+
+[download]
+hash = '5e35f3248b542cf466cbc804c4de92d84388fb76'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5182895
+project-id = 633823
