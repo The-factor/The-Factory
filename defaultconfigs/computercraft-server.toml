@@ -140,7 +140,7 @@ disabled_generic_methods = []
 	command_block_enabled = false
 	#The range of Wireless Modems at low altitude in clear weather, in meters.
 	#Range: 0 ~ 100000
-	modem_range = 64
+	modem_range = 128
 	#The range of Wireless Modems at maximum altitude in clear weather, in meters.
 	#Range: 0 ~ 100000
 	modem_high_altitude_range = 384
