@@ -41,7 +41,7 @@ function pages()
     if page == 1 then
         term.clear()
         print("Games")
-        print("wget run https://pinestore.cc/d/32 : watermelon game")
+        print("wget run https://pinestore.cc/d/32 : Watermelon game")
         print("pastebin get wr2EyxxU Bream : Steam")
         print("wget https://github.com/LDDestroier/CC/raw/master/ldris.lua : Tetris")
         print("pastebin run RkjCL0k4 : Pong")
