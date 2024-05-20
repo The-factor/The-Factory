@@ -1,1 +1,1 @@
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","create:legacy_copper","supplementaries:darker_ropes","file/TheFactory"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/TheFactory"]

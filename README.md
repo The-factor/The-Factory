@@ -7,9 +7,9 @@ The factory is a tech centered Modpack where you build a massive factory automat
 Features:
 
 Quest system (coming in beta or in a full release)
-~125 mods of fun!
+~130 mods of fun!
 
 Information:
 
 [Github Factory](https://github.com/Derek1256/TheFactory/tree/main)
-, [Curseforge Factory](https://www.curseforge.com/minecraft/modpacks/thefactory1) (**Curseforge is using Normal Forge not Neoforge like the actual pack Why? because curse filters dont know that forge and neo are intercompat in 1.20.1**)
+, [Curseforge Factory](https://www.curseforge.com/minecraft/modpacks/thefactory1)

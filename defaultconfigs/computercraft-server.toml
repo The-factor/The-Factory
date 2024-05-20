@@ -1,7 +1,7 @@
 #The disk space limit for computers and turtles, in bytes.
 computer_space_limit = 5000000
 #The disk space limit for floppy disks, in bytes.
-floppy_space_limit = 256000
+floppy_space_limit = 512000
 #The file upload size limit, in bytes. Must be in range of 1 KiB and 16 MiB.
 #Keep in mind that uploads are processed in a single tick - large files or
 #poor network performance can stall the networking thread. And mind the disk space!
