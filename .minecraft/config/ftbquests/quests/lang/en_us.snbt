@@ -1,0 +1,185 @@
+{
+	chapter.0A06B56F13FC78E1.title: "Mekanism"
+	chapter.14E25AAB43AA6F44.title: "Minecraft"
+	chapter.20A6BB47F02670DF.title: "Mahou Tsukai"
+	chapter.2335A513237686CF.title: "helpful Items"
+	chapter.2FE5886D89CC218E.chapter_subtitle: ["Really Cool"]
+	chapter.2FE5886D89CC218E.title: "Create"
+	chapter.51F32CF9D2E1D8A7.title: "Welcome"
+	chapter.542AC7EC51297B1F.title: "Botania"
+	chapter.5DA77B61FC40D23E.chapter_subtitle: ["&3&lAE2 &c&l> &4&lRS&f."]
+	chapter.5DA77B61FC40D23E.title: "Applied Energistics 2"
+	chapter.7040E1EDCA982C27.title: "Applied Energistics 2"
+	chapter_group.09F52653DE876F38.title: "Magic"
+	chapter_group.1498E6C480ADBAD3.title: "Information"
+	chapter_group.51F1E54456BEAE97.title: "Getting Started"
+	chapter_group.58FD3B8F5A50746C.title: "Tech"
+	chapter_group.700436F4602B4595.title: "Miscellaneous"
+	quest.00F28D5C1704F369.quest_desc: ["Time for some diamonds"]
+	quest.00F28D5C1704F369.title: "Diamonds"
+	quest.01A8C8BA2C5EFB2C.quest_desc: ["&3Usage: Put against either a pipe set to extract or on a machine thats set to insert and a pattern with the recipe your trying to automate, then go to your terminal and request said item, Make sure you have it set to import back into ae2 else you wont see the item / craft wont complete intill it enters ae2"]
+	quest.01A8C8BA2C5EFB2C.quest_subtitle: "Auto-crafting my beloved"
+	quest.020C424300A12EB9.quest_desc: ["&b&lSet of Diamond Tools"]
+	quest.020C424300A12EB9.title: "Diamond Tools"
+	quest.0E35052BEE16933E.quest_desc: ["Functions the same as the ME Terminal, but also comes with a built in Crafting Table."]
+	quest.0E35052BEE16933E.quest_subtitle: "Crafting Tables Deleted"
+	quest.11F5FFBA166718BD.quest_desc: ["Electron Tubes are used in some of the more advanced Create recipes, and require Polished Rose Quartz to craft. This can be automated eventually, but for now hold Rose Quartz in one hand and Sand Paper in the other. Hold down Right-Mouse Button in order to craft Polished Rose Quartz"]
+	quest.11F5FFBA166718BD.quest_subtitle: "Electron Volt"
+	quest.12C1DCED158421AF.quest_desc: ["1024 Bytes"]
+	quest.12C1DCED158421AF.quest_subtitle: "Baby's First Storage"
+	quest.133697F1B49ECF4D.quest_desc: ["Fluix cables are used to connect devices and transfer channels. The basic version can only carry 32 channels at a time."]
+	quest.133697F1B49ECF4D.quest_subtitle: "Ethernet Cables"
+	quest.13C62073194F6B87.quest_desc: ["Andesite Casing is very essential in Create, you'll need a lot of this. It is created by right-clicking a stripped log while holding at least one andesite alloy."]
+	quest.13C62073194F6B87.quest_subtitle: "Wooden Machinery"
+	quest.1407597631E47728.quest_desc: ["Used to create patterns, which are used in pattern providers to automate recipes, both crafting and not."]
+	quest.1407597631E47728.quest_subtitle: "I'm out of Copy/Paste Jokes :("
+	quest.17978C74B2C183F7.quest_desc: ["Visit the nether"]
+	quest.17978C74B2C183F7.title: "Nether Portal"
+	quest.17F29AA8E05170E9.quest_desc: ["Time to head over to some other quest chapters and get started on those!"]
+	quest.18A1EBFE5C55C465.quest_desc: ["Pretty self-explanatory. You'll need a lot of this."]
+	quest.18A1EBFE5C55C465.quest_subtitle: "Going Off The Rails On a Crazy Train"
+	quest.19B2063315924BFA.quest_desc: ["Used to request the creation of items from patterns."]
+	quest.19B2063315924BFA.quest_subtitle: "Crafting On-Demand"
+	quest.19F421C461D2D211.quest_desc: ["The Start of your journey. Make some iron &o(I Recommend getting a stack to start)&r"]
+	quest.19F421C461D2D211.title: "Iron Ingots"
+	quest.1A1C968D5D85C8DA.quest_desc: ["16384 Bytes"]
+	quest.1A1C968D5D85C8DA.quest_subtitle: "Efficient Storage Solutions"
+	quest.1F5E8A486D04D838.quest_desc: ["Can be used in conjuncture with Either the Mechanical Press or the Mechanical Mixer for both fluid and item recipes."]
+	quest.1F5E8A486D04D838.quest_subtitle: "Based"
+	quest.1F78F951B004D942.quest_desc: ["A shaft is used to transfer rotational energy, they can be place lineraly both vertically and horizontally."]
+	quest.1F78F951B004D942.quest_subtitle: "No Not That Kind"
+	quest.20777B1F99C236DA.quest_desc: ["Logic Processors are very important for AE2 automation."]
+	quest.20777B1F99C236DA.quest_subtitle: "Faulty Logic"
+	quest.20777B1F99C236DA.title: "&6&lLogic Processor"
+	quest.20F15B37DF363651.quest_desc: ["&b&lSet of Diamond Armor"]
+	quest.20F15B37DF363651.title: "Diamond Armor"
+	quest.225F0EB51DD4E2C6.quest_desc: ["Using two Crushing Wheels you can mass crush items, with a much greater throughput and speed than the Mechanical Crusher."]
+	quest.225F0EB51DD4E2C6.quest_subtitle: "Gordon Freeman Vs. Garbage Compactor"
+	quest.232C9E5D1CF43DE9.quest_desc: ["Functions the same as a small cogwheel, except its' bigger. Can be used in conjunction with a regular cogwheel as a primative method to change rotation speed."]
+	quest.232C9E5D1CF43DE9.quest_subtitle: "Bigger Spinner"
+	quest.268AC29BEC840159.quest_desc: ["Copper Casings are used for fluid-based Create machines."]
+	quest.268AC29BEC840159.quest_subtitle: "Get To The Copper!"
+	quest.288A6595DD097A45.quest_desc: ["The large water wheel functions the same as a normal water wheel, except it has a much higher stress capacity. The downside is it spins much slower."]
+	quest.288A6595DD097A45.quest_subtitle: "Stronk Spin"
+	quest.28F02F89010A3B67.quest_desc: ["Create is an automation based mod that can do anything from trains to ore doubling to making a rotating house. It has something for everyone and is visually pleasing. I would highly reccomend you make use of the Ponder feature of Create, which can be accessed by hovering over a specific block from the mod, and holding the \"w\" key."]
+	quest.28F02F89010A3B67.quest_subtitle: "Create > Immersive Engineering"
+	quest.2975991588249825.quest_desc: ["Andesite Alloy is an essential component of Andesite Casings, which are used in most machines."]
+	quest.2975991588249825.quest_subtitle: "The Building Blocks of Building Blocks"
+	quest.2B61CB4F8EA7F294.quest_desc: ["Used in conjunction with the basin to do various mixing recipes."]
+	quest.2B61CB4F8EA7F294.quest_subtitle: "Mixed Feelings"
+	quest.2CA3E71332D2AC95.quest_desc: ["The Mechanical Harvester can be used to automatically harvest most crops, including underwater."]
+	quest.2CA3E71332D2AC95.quest_subtitle: "Better Than Barbed Wire"
+	quest.2E6E2B86A56F903B.quest_desc: ["&lSet of Iron tools"]
+	quest.2E6E2B86A56F903B.title: "Iron Tools"
+	quest.34E7384F543FCAA7.quest_desc: ["Set of Stone Tools"]
+	quest.34E7384F543FCAA7.title: "Stone Tools"
+	quest.3826E8923DCF97BB.quest_desc: ["Used to access storage cells on an AE2 network."]
+	quest.3826E8923DCF97BB.quest_subtitle: "Jesus Christ It's Jason Bourne"
+	quest.388C13AE05BDB250.quest_desc: ["The depot can be used for temporary item storage for an item that will be used in a recipe. For example, if you place a depot below a mechanical press, and then put iron ingots on it, the ingots will not despawn, but the press will still turn them all into plates."]
+	quest.388C13AE05BDB250.quest_subtitle: "Standing Here"
+	quest.3A75739399C1FD7A.quest_desc: ["Used to control a train."]
+	quest.3A75739399C1FD7A.quest_subtitle: "I Like Trains"
+	quest.3A7DE79466515B70.quest_desc: ["Is used to automate crafting table recipes and nothing else"]
+	quest.3A7DE79466515B70.quest_subtitle: "The Way of The Craft"
+	quest.3E9EAF6653B739C8.quest_desc: ["The Mechanical Press can be used to compress various items into different forms, as well as turning ingots into plates."]
+	quest.3E9EAF6653B739C8.quest_subtitle: "Pressing Matters"
+	quest.3EC76E0EB1E34EED.quest_desc: ["Inserting Storage Cells into the ME Drive will allow massive amounts of storage. One ME Drive can hold up to 10 Storage Cells."]
+	quest.3EC76E0EB1E34EED.quest_subtitle: "(Almost) Unlimited Storage"
+	quest.3EF66440860597BD.quest_desc: ["The game starts here. Make your 1st crafting table"]
+	quest.3F5C2249AD1A1556.quest_desc: ["The deployer has two uses. The first is placing/clicking blocks. The second is multi-stage recipes. Use Ponder for a better explanation."]
+	quest.3F5C2249AD1A1556.quest_subtitle: "The Touchening"
+	quest.4028EFD528F6A15B.quest_desc: [
+		"The Goal of the pack is to have fun and fully automate the \"&3&o&lFactory medal&r\" and use it to craft some creative items! "
+		"{ \"text\": \"Head over to and get started on the basics!\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"14E25AAB43AA6F44\" } }"
+	]
+	quest.4028EFD528F6A15B.quest_subtitle: "&l&fClick the images on the sides to go to their respective link!"
+	quest.43558BB22D8FB5B2.quest_desc: ["A Mechanical Saw is used primarily in cutting recipes and can chop down tress automatically."]
+	quest.43558BB22D8FB5B2.quest_subtitle: "Saw XI (Real)"
+	quest.436B8D565234B383.quest_desc: ["Used essentially like RAM, keeps track of pattern recipes while they are being used."]
+	quest.436B8D565234B383.quest_subtitle: "Computer Builder"
+	quest.44D8FA7C45D9DFE8.quest_desc: ["The Gearbox can be used to shift rotation across conflicting axes. It can also be turned vertical."]
+	quest.44D8FA7C45D9DFE8.quest_subtitle: "Move That Gear Up"
+	quest.45FB3CEE6CA9788C.quest_desc: ["4096 bytes"]
+	quest.45FB3CEE6CA9788C.quest_subtitle: "Better Than 1k"
+	quest.4A74FC41E303DBE1.quest_desc: ["An early-game low-cost solution to crushing."]
+	quest.4A74FC41E303DBE1.quest_subtitle: "Crushed Dreams"
+	quest.4F14986407115E54.quest_desc: ["Dried Kelp is used to make belts."]
+	quest.4F14986407115E54.quest_subtitle: "Fossil Fuels Jumpscare"
+	quest.532AA0CCB26497F2.quest_desc: ["Dense Fluix Cables can transport up to 128 (32 default) channels at a time."]
+	quest.532AA0CCB26497F2.quest_subtitle: "Google Fiber"
+	quest.5383242CB3EE45CA.quest_desc: ["Funnels are used to automatically tansfer items in and out of machines, typically on to belts."]
+	quest.5383242CB3EE45CA.quest_subtitle: "Pop Goes The Weasel"
+	quest.55154A75E797C83C.quest_desc: [
+		"Storage cells have limits of size, and limits of types, plus you need to consider the resource usage of your cells, to decide what your best options are. Each storage cell can store a fixed amount of data. Each type consumes a number of bytes (which varies with the cell size), and each item consumes one bit of storage, so eight items consume one byte, and a full stack of 64 consumes 8 bytes, regardless of how the item would stack outside an ME network. For instance, 64 identical saddles don't take up more space than 64 stone."
+		"All Storage Cells have a fixed type limit of 63."
+	]
+	quest.55154A75E797C83C.quest_subtitle: "Limitations :'("
+	quest.55154A75E797C83C.title: "Types N' Bytes"
+	quest.55A0FF52D77863E1.quest_desc: ["Trains are inbound! They are very interesting, with uses ranging from transportation to mining."]
+	quest.55A0FF52D77863E1.quest_subtitle: "I Like Trains"
+	quest.563EF8A08FBDA53A.quest_desc: ["A Mechanical Belt can be used in conjunction with Shafts to create Conveyor Belts, which can both transfer rotational energy and items."]
+	quest.563EF8A08FBDA53A.quest_subtitle: "The  B E L T"
+	quest.56D9AB936BB186A4.quest_desc: ["Brass Casing are typically used in Create machines that more allign with assisting automation, rather than producing an item."]
+	quest.56D9AB936BB186A4.quest_subtitle: "Brains of The Brass"
+	quest.5830B41EC6AB470C.quest_desc: ["This is the heart of AE2, each of the six faces of the block have a throughput of 32 channels. Channels are used to connect devices, each device taking up one channel. If the channel limit is reached no new devices can be added to the network."]
+	quest.5830B41EC6AB470C.quest_subtitle: "Amazon Warehouse"
+	quest.5830B41EC6AB470C.title: "&3&lME &b&lController"
+	quest.59A73B4471026F94.quest_desc: ["I suggest you use ponder, I would not be able to effectively communicate how these work through this description."]
+	quest.59A73B4471026F94.quest_subtitle: "Platform Nine and Three-Quarters"
+	quest.5B4D38DFE52190B9.quest_desc: ["Used to Smelt Ores, and other things (Obviously)"]
+	quest.5FB603AD29289D1F.quest_desc: ["Used to Convert Redstone Flux (RF) --> Stress Units (SU)"]
+	quest.5FB603AD29289D1F.quest_subtitle: "Hopefully Won't Explode Like My friend's Car's Engine"
+	quest.6025FFB96E5D19C1.quest_desc: ["Super Glue, as the name implies, is glue used to bind blocks to each other, typically for multiblock creations."]
+	quest.6025FFB96E5D19C1.quest_subtitle: "My Gloo Cannon"
+	quest.60759B40C3D195CC.quest_desc: ["Access your AE2 Network wirelessly."]
+	quest.60759B40C3D195CC.quest_subtitle: "5G Towers Required"
+	quest.62334A3481A08190.quest_desc: ["The Smart Fluix Cable differs in one primary way from the regular Fluix Cable: It allows you to see how many channels are being used at a given time. (It also looks cooler.)"]
+	quest.62334A3481A08190.quest_subtitle: "Certified Internet Maintenance"
+	quest.63F3D06137B0D9C4.quest_desc: ["Used to automatically mine blocks. Most common applications are as a tunnel bore or on a cobble gen."]
+	quest.63F3D06137B0D9C4.quest_subtitle: "The Dig of 23"
+	quest.66C383F9C91B5B51.quest_desc: ["&bApplied Energistics 2 is a mod centered around mass storage and automation. The first thing you'll need is an insciber, a long with the four types of inscriber plates. These can be found inside meteors that can be found both scattered around the surface and underground. The meteors can be tracked with a meteorite compass."]
+	quest.66C383F9C91B5B51.quest_subtitle: "Digital Storage Extravanza"
+	quest.66C383F9C91B5B51.title: "&c&lWelcome To AE2"
+	quest.67BA6B1F28FE633A.quest_desc: ["The hand crank can be used for quick rotaitonal energy. But it is weak and only provides a small amount of rotational energy. It also drains your hunger quicker."]
+	quest.67BA6B1F28FE633A.quest_subtitle: "Manual Labor"
+	quest.68D3E31EA2BB2566.quest_desc: ["Alot of stuff will either not exist (like in create chapter it wont have addons, this is because i either dont know the mods or how to word them so if youd like to contribute to that you can either PR on github those quests or join the discord and submit em :)"]
+	quest.68D3E31EA2BB2566.quest_subtitle: "&b&lPLEASE READ"
+	quest.68E2E8F18411DFE4.quest_desc: ["The small cogwheel can be used in conjunction with shafts to transfer rotational energy."]
+	quest.68E2E8F18411DFE4.quest_subtitle: "Tiny Rotation"
+	quest.6CE7A85A9B6BBF6F.quest_desc: ["Precision Mechanisms are used in very advanced Create recipes and require deployers to craft. The crafting process is long and expensive, if you cant figure it out, look up a Youtube tutorial."]
+	quest.6CE7A85A9B6BBF6F.quest_subtitle: "Discount Gregification"
+	quest.74AFE45A5AF771EB.quest_desc: ["The Crafter is Create's solution to autocrafting, each crafter block representing one crafting slot. However, the slots can exceed the standard 3x3x3, which allows for bigger machines to be constructed."]
+	quest.74AFE45A5AF771EB.quest_subtitle: "Big Crafting"
+	quest.751D3038B889213E.quest_desc: ["Wireless AE2 Network access and crafting."]
+	quest.751D3038B889213E.quest_subtitle: "IPhone 16"
+	quest.790A8EB5762D4CF4.quest_desc: ["64k drives are enough to satisfy most casual AE2 users. Unless your looking for massive-scale automation, it is advised to stop here. 65536 Bytes"]
+	quest.790A8EB5762D4CF4.quest_subtitle: "The End of Casuals"
+	quest.7A0732FB59C4AFEC.quest_desc: ["The Engineering Processor is an essential component in all storage-related AE2 recipes."]
+	quest.7A0732FB59C4AFEC.quest_subtitle: "The Engineer is Engihear"
+	quest.7A0732FB59C4AFEC.title: "&3&lEngineering Processor"
+	quest.7A770244B621D78D.quest_desc: ["Typically used in conjunction with logic processors for things such as better terminals, upgrade cards, and higher tier storage components."]
+	quest.7A770244B621D78D.quest_subtitle: "Replay"
+	quest.7A770244B621D78D.title: "&b&lCalculation Processor"
+	quest.7BBBB52AFC88B7BA.quest_desc: [
+		"note; has to be oak for now as i cant set a tag filter in 1.21 yet."
+		""
+		""
+		""
+		"every playthrough needs you  to break trees at some point might aswell get this out the way."
+	]
+	quest.7BBBB52AFC88B7BA.title: "Gather your first logs"
+	quest.7CBA6905B7FEECA7.quest_desc: ["Cobble = Life, here we go"]
+	quest.7CBA6905B7FEECA7.title: "Cobblestone"
+	quest.7E23C7EEB30B5180.quest_desc: ["The water wheel is the easiest, but also weakest rotational source in the game. It will spin very slow, and have a low stress capacity. Stress is essentially a limit for how many different Create Contraptions can be used on one rotational network. If it is reached, everything will stop working. This can be counteracted by adding more waterwheels."]
+	quest.7E23C7EEB30B5180.quest_subtitle: "Smol Rotation"
+	quest.7EA2AF092CDD4E87.quest_desc: ["262144 Bytes"]
+	quest.7EA2AF092CDD4E87.quest_subtitle: "Overcompensation"
+	task.1B9D10B828CE688E.title: "get 8 oak logs"
+	task.2BC3393A78D513EC.title: "types and bytes"
+	task.3250AFB2508E5B1F.title: "Visit the nether"
+	task.35E32E53A7545AA7.title: "About certain questlines."
+	task.381DFD550A8CAA82.title: "Obsidian"
+	task.3897F310C0986D19.title: "Welcome to The Factory!"
+	task.5961580DB2746FBE.title: "Welcome To Create"
+	task.631664A63F50D9B4.title: "Mods"
+}

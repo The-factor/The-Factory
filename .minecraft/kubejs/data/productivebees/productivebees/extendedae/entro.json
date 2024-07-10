@@ -1,0 +1,18 @@
+{
+    "primaryColor": "#55eb34",
+    "secondaryColor": "#34eb58",
+    "particleColor": "#55eb34",
+    "description": "Used to automate entro crystals more easily!",
+    "flowerItem": "extendedae:entro_block",
+    "selfbreed": true,
+    "createComb": true,
+    "fireproof": true,
+    "attackResponse": "fire",
+    "attributes": {
+        "endurance": 3,
+        "behavior": 5,
+        "productivity": 2
+    },
+    "conditions": [
+    ]
+  } 

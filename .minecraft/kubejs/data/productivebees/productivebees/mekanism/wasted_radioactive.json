@@ -1,0 +1,10 @@
+{
+    "primaryColor": "#80B425",
+    "secondaryColor": "#bb8d23",
+    "particleColor": "#80B425",
+    "flowerItem": "mekanism:pellet_plutonium",
+    "selfbreed": true,
+    "Irradiated": true,
+    "conditions": [
+    ]
+  } 
