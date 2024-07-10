@@ -33,15 +33,15 @@ function pages()
     if page == 0 then
         term.clear()
         print("Operating systems")
-        print("pastebin run UzGHLbNC  : Opus OS")
+        print("pastebin run UzGHLbNC  : OpusOS")
         print("pastebin get LRFsvuN3 PearOS.pkg  : PearOS")
         iopress()    
     end
  
     if page == 1 then
         term.clear()
-        print("Games")
-        print("wget run https://pinestore.cc/d/32 : Watermelon game")
+        print("Game room")
+        print("wget run https://pinestore.cc/d/32 : Watermelon gaming")
         print("pastebin get wr2EyxxU Bream : Steam")
         print("wget https://github.com/LDDestroier/CC/raw/master/ldris.lua : Tetris")
         print("pastebin run RkjCL0k4 : Pong")
