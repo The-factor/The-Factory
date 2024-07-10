@@ -10,7 +10,7 @@
     "attackResponse": "fire",
     "attributes": {
         "endurance": 3,
-        "behavior": 5,
+        "behavior": 2,
         "productivity": 2
     },
     "conditions": [
