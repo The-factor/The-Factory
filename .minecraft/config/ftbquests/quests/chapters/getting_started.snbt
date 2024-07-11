@@ -14,7 +14,7 @@
 				consume_items: false
 				count: 8L
 				id: "1B9D10B828CE688E"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "minecraft:oak_log" }
+				item: { count: 1, id: "minecraft:oak_log" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -51,7 +51,7 @@
 			]
 			tasks: [{
 				id: "5099B24E24160B6A"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "minecraft:crafting_table" }
+				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -63,7 +63,7 @@
 			tasks: [{
 				count: 32L
 				id: "6FAA72562B54030A"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "minecraft:cobblestone" }
+				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -103,7 +103,7 @@
 			tasks: [{
 				count: 16L
 				id: "7909C684E3767DD4"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "minecraft:iron_ingot" }
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -137,7 +137,7 @@
 			id: "5B4D38DFE52190B9"
 			tasks: [{
 				id: "67F965A7575FA87D"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "minecraft:furnace" }
+				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -154,7 +154,7 @@
 			tasks: [{
 				count: 4L
 				id: "3EB7476D92EE606A"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "minecraft:diamond" }
+				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -223,7 +223,7 @@
 				{
 					count: 10L
 					id: "381DFD550A8CAA82"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "minecraft:obsidian" }
+					item: { count: 1, id: "minecraft:obsidian" }
 					type: "item"
 				}
 			]

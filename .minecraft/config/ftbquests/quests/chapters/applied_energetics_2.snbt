@@ -3,6 +3,15 @@
 	default_quest_shape: ""
 	filename: "applied_energetics_2"
 	group: "58FD3B8F5A50746C"
+	icon: {
+		components: {
+			"mahoutsukai:strengthening_mahou": {
+				strengthened: 0b
+				uses: 0
+			}
+		}
+		id: "ae2:controller"
+	}
 	id: "5DA77B61FC40D23E"
 	order_index: 1
 	quest_links: [ ]
@@ -16,27 +25,27 @@
 			tasks: [
 				{
 					id: "1FB565840FBC4051"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:calculation_processor_press" }
+					item: { count: 1, id: "ae2:calculation_processor_press" }
 					type: "item"
 				}
 				{
 					id: "25A5305ADCC85ACE"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:engineering_processor_press" }
+					item: { count: 1, id: "ae2:engineering_processor_press" }
 					type: "item"
 				}
 				{
 					id: "0FC4E29FFD1B46AA"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:logic_processor_press" }
+					item: { count: 1, id: "ae2:logic_processor_press" }
 					type: "item"
 				}
 				{
 					id: "4AAF2FBFD44CB475"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:silicon_press" }
+					item: { count: 1, id: "ae2:silicon_press" }
 					type: "item"
 				}
 				{
 					id: "6474A6DFF0A39776"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:inscriber" }
+					item: { count: 1, id: "ae2:inscriber" }
 					type: "item"
 				}
 			]
@@ -48,7 +57,7 @@
 			id: "7A770244B621D78D"
 			tasks: [{
 				id: "30DD47A1898E2343"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:calculation_processor" }
+				item: { count: 1, id: "ae2:calculation_processor" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -59,7 +68,7 @@
 			id: "7A0732FB59C4AFEC"
 			tasks: [{
 				id: "2114ACEA20C42198"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:engineering_processor" }
+				item: { count: 1, id: "ae2:engineering_processor" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -70,7 +79,7 @@
 			id: "20777B1F99C236DA"
 			tasks: [{
 				id: "4A29CFA380439921"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:logic_processor" }
+				item: { count: 1, id: "ae2:logic_processor" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -84,7 +93,7 @@
 			id: "5830B41EC6AB470C"
 			tasks: [{
 				id: "61C8377C664F9766"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:controller" }
+				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -99,7 +108,7 @@
 			tasks: [
 				{
 					id: "641E495E76F76F9B"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:cell_component_1k" }
+					item: { count: 1, id: "ae2:cell_component_1k" }
 					type: "item"
 				}
 				{
@@ -117,7 +126,7 @@
 			tasks: [
 				{
 					id: "6F9F05EBE4B1B2E4"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:cell_component_4k" }
+					item: { count: 1, id: "ae2:cell_component_4k" }
 					type: "item"
 				}
 				{
@@ -135,7 +144,7 @@
 			tasks: [
 				{
 					id: "3A8E7D99156F38AD"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:cell_component_16k" }
+					item: { count: 1, id: "ae2:cell_component_16k" }
 					type: "item"
 				}
 				{
@@ -153,7 +162,7 @@
 			tasks: [
 				{
 					id: "2EDB2C7E22F86620"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:cell_component_64k" }
+					item: { count: 1, id: "ae2:cell_component_64k" }
 					type: "item"
 				}
 				{
@@ -171,7 +180,7 @@
 			tasks: [
 				{
 					id: "7FA44915E1A8B126"
-					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:item_storage_cell_256k" }
+					item: { count: 1, id: "ae2:item_storage_cell_256k" }
 					type: "item"
 				}
 				{
@@ -188,7 +197,7 @@
 			id: "3EC76E0EB1E34EED"
 			tasks: [{
 				id: "6BE08BB80110D52E"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:drive" }
+				item: { count: 1, id: "ae2:drive" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -199,7 +208,7 @@
 			id: "133697F1B49ECF4D"
 			tasks: [{
 				id: "5A5803A0B97FD1CB"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:fluix_glass_cable" }
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -213,7 +222,7 @@
 			id: "3826E8923DCF97BB"
 			tasks: [{
 				id: "76A9575939865CEA"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:terminal" }
+				item: { count: 1, id: "ae2:terminal" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -224,7 +233,7 @@
 			id: "0E35052BEE16933E"
 			tasks: [{
 				id: "31991E896064827F"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:crafting_terminal" }
+				item: { count: 1, id: "ae2:crafting_terminal" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -235,7 +244,7 @@
 			id: "3A7DE79466515B70"
 			tasks: [{
 				id: "6E48FA72B36D3B2A"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:molecular_assembler" }
+				item: { count: 1, id: "ae2:molecular_assembler" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -250,7 +259,7 @@
 			id: "01A8C8BA2C5EFB2C"
 			tasks: [{
 				id: "73893C3ACB1E5D9D"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:pattern_provider" }
+				item: { count: 1, id: "ae2:pattern_provider" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -261,7 +270,7 @@
 			id: "1407597631E47728"
 			tasks: [{
 				id: "1E05834B2A49EF92"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:pattern_encoding_terminal" }
+				item: { count: 1, id: "ae2:pattern_encoding_terminal" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -272,7 +281,7 @@
 			id: "19B2063315924BFA"
 			tasks: [{
 				id: "2178A03F1CDB8C88"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:pattern_access_terminal" }
+				item: { count: 1, id: "ae2:pattern_access_terminal" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -283,7 +292,7 @@
 			id: "436B8D565234B383"
 			tasks: [{
 				id: "343166E0422F8728"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:1k_crafting_storage" }
+				item: { count: 1, id: "ae2:1k_crafting_storage" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -294,7 +303,7 @@
 			id: "78F7B16CE555A638"
 			tasks: [{
 				id: "4D47EE502F953678"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:4k_crafting_storage" }
+				item: { count: 1, id: "ae2:4k_crafting_storage" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -305,7 +314,7 @@
 			id: "477FD9BF60B4FE8E"
 			tasks: [{
 				id: "216B52B497915964"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:16k_crafting_storage" }
+				item: { count: 1, id: "ae2:16k_crafting_storage" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -316,7 +325,7 @@
 			id: "2707A516FA628F92"
 			tasks: [{
 				id: "6264998B7269AAFF"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:64k_crafting_storage" }
+				item: { count: 1, id: "ae2:64k_crafting_storage" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -327,7 +336,7 @@
 			id: "125CA87072F5F5BC"
 			tasks: [{
 				id: "4E004D33CB6CF490"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:256k_crafting_storage" }
+				item: { count: 1, id: "ae2:256k_crafting_storage" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -338,7 +347,7 @@
 			id: "751D3038B889213E"
 			tasks: [{
 				id: "54177E194BFDC510"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:wireless_crafting_terminal" }
+				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -349,7 +358,7 @@
 			id: "60759B40C3D195CC"
 			tasks: [{
 				id: "7B9154F2B19718FB"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:wireless_access_point" }
+				item: { count: 1, id: "ae2:wireless_access_point" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -360,7 +369,7 @@
 			id: "62334A3481A08190"
 			tasks: [{
 				id: "204E6C10F5985339"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:fluix_smart_cable" }
+				item: { count: 1, id: "ae2:fluix_smart_cable" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -371,7 +380,7 @@
 			id: "532AA0CCB26497F2"
 			tasks: [{
 				id: "0CA0EF5A8802E001"
-				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:fluix_smart_dense_cable" }
+				item: { count: 1, id: "ae2:fluix_smart_dense_cable" }
 				type: "item"
 			}]
 			x: 2.0d

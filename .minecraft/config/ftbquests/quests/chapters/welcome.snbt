@@ -25,7 +25,7 @@
 			y: 0.0d
 		}
 		{
-			click: "https://github.com/Derek1256/TheFactory"
+			click: "https://github.com/The-factor/The-Factory"
 			color: 13750479
 			height: 5.0d
 			hover: ["Click me to go to the github!"]
