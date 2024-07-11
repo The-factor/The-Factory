@@ -2,7 +2,7 @@
     "primaryColor": "#55eb34",
     "secondaryColor": "#34eb58",
     "particleColor": "#55eb34",
-    "description": "Used to automate entro crystals more easily!",
+    "description": "Entro crystals? not being automated? we'll see about that.",
     "flowerItem": "extendedae:entro_block",
     "selfbreed": true,
     "createComb": true,
