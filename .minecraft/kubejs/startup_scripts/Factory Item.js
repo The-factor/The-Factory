@@ -4,9 +4,9 @@ StartupEvents.registry('item', factory => {
     .texture('factory:item/medal')
     .displayName('§bFactory Medal')
     .tooltip("§aNow go make some fun endgame items!")
-// Universal Press
-    factory.create('factory:universal_press')
-    .texture('factory:item/universal_press')
+// Automation Press
+    factory.create('factory:automation_press')
+    .texture('factory:item/factory_press')
     .maxStackSize(64)
-    .displayName('Universal Press');  
+    .displayName('Automation Press');  
 })
