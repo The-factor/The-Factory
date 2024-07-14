@@ -5,7 +5,7 @@ StartupEvents.registry('item', factory => {
     .displayName('§bFactory Medal')
     .tooltip("§aNow go make some fun endgame items!")
 // Automation Press
-    factory.create('factory:automation_press')
+    factory.create('ae2:automation_press')
     .texture('factory:item/factory_press')
     .maxStackSize(64)
     .displayName('Automation Press');  
