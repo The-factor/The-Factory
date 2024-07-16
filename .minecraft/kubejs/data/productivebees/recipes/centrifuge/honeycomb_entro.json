@@ -1,0 +1,33 @@
+{
+    "type": "productivebees:centrifuge",
+    "conditions": [
+      {
+        "type": "productivebees:bee_exists",
+        "bee": "productivebees:entro"
+      }
+    ],
+    "ingredient": {
+      "type": "neoforge:nbt",
+      "count": 1,
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": "{EntityTag:{type:\"productivebees:entro\"}}"
+    },
+    "outputs": [
+      {
+        "item": {
+          "tag": "c:wax"
+        }
+      },
+      {
+        "item": {
+          "tag": "c:gems/entro"
+        }
+      },
+      {
+        "amount": 50,
+        "fluid": {
+          "fluid": "productivebees:honey"
+        }
+      }
+    ]
+  }

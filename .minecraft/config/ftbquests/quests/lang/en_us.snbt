@@ -15,14 +15,26 @@
 	chapter_group.51F1E54456BEAE97.title: "Getting Started"
 	chapter_group.58FD3B8F5A50746C.title: "Tech"
 	chapter_group.700436F4602B4595.title: "Miscellaneous"
+	file.0000000000000001.title: "Quest Factory"
+	quest.001901B8B22E2DE7.quest_desc: [
+		"how to get:"
+		""
+		"use an Explosive Mana Condensation Scroll"
+	]
 	quest.00F28D5C1704F369.quest_desc: ["Time for some diamonds"]
 	quest.00F28D5C1704F369.title: "Diamonds"
 	quest.01A8C8BA2C5EFB2C.quest_desc: ["&3Usage: Put against either a pipe set to extract or on a machine thats set to insert and a pattern with the recipe your trying to automate, then go to your terminal and request said item, Make sure you have it set to import back into ae2 else you wont see the item / craft wont complete intill it enters ae2"]
 	quest.01A8C8BA2C5EFB2C.quest_subtitle: "Auto-crafting my beloved"
 	quest.020C424300A12EB9.quest_desc: ["&b&lSet of Diamond Tools"]
 	quest.020C424300A12EB9.title: "Diamond Tools"
+	quest.0C4C60379207F6D2.quest_desc: ["Wind generator, the basic power generation in mekanism, the way it works is the higher you put it in the world the more FE it makes, max is around 120 FE/t."]
 	quest.0E35052BEE16933E.quest_desc: ["Functions the same as the ME Terminal, but also comes with a built in Crafting Table."]
 	quest.0E35052BEE16933E.quest_subtitle: "Crafting Tables Deleted"
+	quest.114FAFEE75A55C70.quest_desc: [
+		"How to get:"
+		""
+		"throw an enchanted sword into the Power Consolidation lake. Ensure you have 5k mana and throw with Q. then go swimming to find it"
+	]
 	quest.11F5FFBA166718BD.quest_desc: ["Electron Tubes are used in some of the more advanced Create recipes, and require Polished Rose Quartz to craft. This can be automated eventually, but for now hold Rose Quartz in one hand and Sand Paper in the other. Hold down Right-Mouse Button in order to craft Polished Rose Quartz"]
 	quest.11F5FFBA166718BD.quest_subtitle: "Electron Volt"
 	quest.12C1DCED158421AF.quest_desc: ["1024 Bytes"]
@@ -33,6 +45,7 @@
 	quest.13C62073194F6B87.quest_subtitle: "Wooden Machinery"
 	quest.1407597631E47728.quest_desc: ["Used to create patterns, which are used in pattern providers to automate recipes, both crafting and not."]
 	quest.1407597631E47728.quest_subtitle: "I'm out of Copy/Paste Jokes :("
+	quest.15C8958D94860C81.quest_desc: ["really only used in the ExtendedAE mod, very useful for making extremely fast inscribers // processor automation. and wireless AE"]
 	quest.17978C74B2C183F7.quest_desc: ["Visit the nether"]
 	quest.17978C74B2C183F7.title: "Nether Portal"
 	quest.17F29AA8E05170E9.quest_desc: ["Time to head over to some other quest chapters and get started on those!"]
@@ -59,6 +72,21 @@
 	quest.232C9E5D1CF43DE9.quest_subtitle: "Bigger Spinner"
 	quest.268AC29BEC840159.quest_desc: ["Copper Casings are used for fluid-based Create machines."]
 	quest.268AC29BEC840159.quest_subtitle: "Get To The Copper!"
+	quest.2806075C636BE7F0.quest_desc: [
+		"&cSpatial IO&r is a way to cut-and-paste physical volumes of space in your world. It can be used to move &bFlawless Budding Certus Quartz&r, have a room in your base where you can swap out various interiors to use it for different purposes, or even move the end portal!"
+		""
+		"It works by swapping the defined volume with an identically-sized volume in the spatial storage dimension, sending whatever's in the pylon array to the spatial storage dimension, and whatever's in the dimension to the pylon array."
+		""
+		"This means that if you have a way of travelling between dimensions (&cspatial IO&r can be used to make a teleporter, but doing it is very complex, a bit janky, and beyond the scope of the guide), you can use them like custom-sized compact machines or pocket dimensions."
+	]
+	quest.2806075C636BE7F0.quest_subtitle: "Inter-dimensional base!"
+	quest.287E469DA8D74B88.quest_desc: [
+		"the first machine you'll ever make in mekanism capable of making 3 tiers of alloys and circuits, the circuit is named &aBasic control circuit&r, the others is: &cInfused alloy&r, &bReinforced Alloy&r, &dAtomic Alloy&r"
+		""
+		""
+		""
+		"&4just put redstone in the power slot till you make a wind generator lol"
+	]
 	quest.288A6595DD097A45.quest_desc: ["The large water wheel functions the same as a normal water wheel, except it has a much higher stress capacity. The downside is it spins much slower."]
 	quest.288A6595DD097A45.quest_subtitle: "Stronk Spin"
 	quest.28F02F89010A3B67.quest_desc: ["Create is an automation based mod that can do anything from trains to ore doubling to making a rotating house. It has something for everyone and is visually pleasing. I would highly reccomend you make use of the Ponder feature of Create, which can be accessed by hovering over a specific block from the mod, and holding the \"w\" key."]
@@ -71,8 +99,21 @@
 	quest.2CA3E71332D2AC95.quest_subtitle: "Better Than Barbed Wire"
 	quest.2E6E2B86A56F903B.quest_desc: ["&lSet of Iron tools"]
 	quest.2E6E2B86A56F903B.title: "Iron Tools"
+	quest.2F6FBD815D81CF9A.quest_desc: [
+		"&bWelcome to mekanism! your going to need a few osmium ingots to get started on this mod so lets get 16 and get started!&r"
+		""
+		""
+		"&9(i recommend grabbing a stack or 2)&r"
+	]
+	quest.2F6FBD815D81CF9A.quest_subtitle: "mining mining mining mining"
+	quest.2FA437527F842978.quest_desc: [
+		"How to get:"
+		""
+		"use Strengthening on a sword, then right click while standing in ender dragon's breath"
+	]
 	quest.34E7384F543FCAA7.quest_desc: ["Set of Stone Tools"]
 	quest.34E7384F543FCAA7.title: "Stone Tools"
+	quest.364AE39F92859272.quest_desc: ["Put yourself in a &cSpatialIO&r cell."]
 	quest.3826E8923DCF97BB.quest_desc: ["Used to access storage cells on an AE2 network."]
 	quest.3826E8923DCF97BB.quest_subtitle: "Jesus Christ It's Jason Bourne"
 	quest.388C13AE05BDB250.quest_desc: ["The depot can be used for temporary item storage for an item that will be used in a recipe. For example, if you place a depot below a mechanical press, and then put iron ingots on it, the ingots will not despawn, but the press will still turn them all into plates."]
@@ -81,6 +122,7 @@
 	quest.3A75739399C1FD7A.quest_subtitle: "I Like Trains"
 	quest.3A7DE79466515B70.quest_desc: ["Is used to automate crafting table recipes and nothing else"]
 	quest.3A7DE79466515B70.quest_subtitle: "The Way of The Craft"
+	quest.3D60968E28DC0B39.quest_desc: ["Obviously theres so much more to this mod but this is what i believe to be the most fun to play around with."]
 	quest.3E9EAF6653B739C8.quest_desc: ["The Mechanical Press can be used to compress various items into different forms, as well as turning ingots into plates."]
 	quest.3E9EAF6653B739C8.quest_subtitle: "Pressing Matters"
 	quest.3EC76E0EB1E34EED.quest_desc: ["Inserting Storage Cells into the ME Drive will allow massive amounts of storage. One ME Drive can hold up to 10 Storage Cells."]
@@ -88,11 +130,13 @@
 	quest.3EF66440860597BD.quest_desc: ["The game starts here. Make your 1st crafting table"]
 	quest.3F5C2249AD1A1556.quest_desc: ["The deployer has two uses. The first is placing/clicking blocks. The second is multi-stage recipes. Use Ponder for a better explanation."]
 	quest.3F5C2249AD1A1556.quest_subtitle: "The Touchening"
-	quest.4028EFD528F6A15B.quest_desc: [
-		"The Goal of the pack is to have fun and fully automate the \"&3&o&lFactory medal&r\" and use it to craft some creative items! "
-		"{ \"text\": \"Head over to and get started on the basics!\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"14E25AAB43AA6F44\" } }"
-	]
+	quest.4028EFD528F6A15B.quest_desc: ["The Goal of the pack is to have fun and fully automate the \"&3&o&lFactory medal&r\""]
 	quest.4028EFD528F6A15B.quest_subtitle: "&l&fClick the images on the sides to go to their respective link!"
+	quest.431A6DACBC532E9C.quest_desc: [
+		"How to get:"
+		""
+		"kill your pet dog with Caliburn"
+	]
 	quest.43558BB22D8FB5B2.quest_desc: ["A Mechanical Saw is used primarily in cutting recipes and can chop down tress automatically."]
 	quest.43558BB22D8FB5B2.quest_subtitle: "Saw XI (Real)"
 	quest.436B8D565234B383.quest_desc: ["Used essentially like RAM, keeps track of pattern recipes while they are being used."]
@@ -137,6 +181,11 @@
 	quest.62334A3481A08190.quest_subtitle: "Certified Internet Maintenance"
 	quest.63F3D06137B0D9C4.quest_desc: ["Used to automatically mine blocks. Most common applications are as a tunnel bore or on a cobble gen."]
 	quest.63F3D06137B0D9C4.quest_subtitle: "The Dig of 23"
+	quest.65626C8A063243DA.quest_desc: [
+		"how to get:"
+		""
+		"Use a Spatial Disorientation Scroll"
+	]
 	quest.66C383F9C91B5B51.quest_desc: ["&bApplied Energistics 2 is a mod centered around mass storage and automation. The first thing you'll need is an insciber, a long with the four types of inscriber plates. These can be found inside meteors that can be found both scattered around the surface and underground. The meteors can be tracked with a meteorite compass."]
 	quest.66C383F9C91B5B51.quest_subtitle: "Digital Storage Extravanza"
 	quest.66C383F9C91B5B51.title: "&c&lWelcome To AE2"
@@ -148,6 +197,7 @@
 	quest.68E2E8F18411DFE4.quest_subtitle: "Tiny Rotation"
 	quest.6CE7A85A9B6BBF6F.quest_desc: ["Precision Mechanisms are used in very advanced Create recipes and require deployers to craft. The crafting process is long and expensive, if you cant figure it out, look up a Youtube tutorial."]
 	quest.6CE7A85A9B6BBF6F.quest_subtitle: "Discount Gregification"
+	quest.71477858C5C6FABE.quest_desc: ["the guide for mahou tsukai, itll explain how to do stuff way better than i can."]
 	quest.74AFE45A5AF771EB.quest_desc: ["The Crafter is Create's solution to autocrafting, each crafter block representing one crafting slot. However, the slots can exceed the standard 3x3x3, which allows for bigger machines to be constructed."]
 	quest.74AFE45A5AF771EB.quest_subtitle: "Big Crafting"
 	quest.751D3038B889213E.quest_desc: ["Wireless AE2 Network access and crafting."]
@@ -180,6 +230,7 @@
 	task.35E32E53A7545AA7.title: "About certain questlines."
 	task.381DFD550A8CAA82.title: "Obsidian"
 	task.3897F310C0986D19.title: "Welcome to The Factory!"
+	task.58309A1A0931BA4E.title: "Read"
 	task.5961580DB2746FBE.title: "Welcome To Create"
 	task.631664A63F50D9B4.title: "Mods"
 }

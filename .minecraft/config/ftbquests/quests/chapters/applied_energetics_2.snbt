@@ -20,6 +20,16 @@
 			id: "66C383F9C91B5B51"
 			rewards: [{
 				id: "3FA33CD4634BD0FE"
+				item: {
+					components: {
+						"mahoutsukai:strengthening_mahou": {
+							strengthened: 0b
+							uses: 0
+						}
+					}
+					count: 1
+					id: "extendedae:ex_inscriber"
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -49,7 +59,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -60,7 +70,7 @@
 				item: { count: 1, id: "ae2:calculation_processor" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -71,8 +81,8 @@
 				item: { count: 1, id: "ae2:engineering_processor" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["66C383F9C91B5B51"]
@@ -82,8 +92,8 @@
 				item: { count: 1, id: "ae2:logic_processor" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -394,7 +404,49 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5830B41EC6AB470C"]
+			id: "2806075C636BE7F0"
+			tasks: [
+				{
+					count: 32L
+					id: "7945D9279B0F33FE"
+					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:spatial_pylon" }
+					type: "item"
+				}
+				{
+					id: "53C47DCE7BA5CFCA"
+					item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "ae2:spatial_io_port" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2806075C636BE7F0"]
+			id: "364AE39F92859272"
+			tasks: [{
+				advancement: "ae2:main/spatial_explorer"
+				criterion: ""
+				id: "56C7DC0C7EA04B1F"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66C383F9C91B5B51"]
+			id: "15C8958D94860C81"
+			tasks: [{
+				id: "5A2370301E521BC5"
+				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "extendedae:concurrent_processor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
 		}
 	]
 }

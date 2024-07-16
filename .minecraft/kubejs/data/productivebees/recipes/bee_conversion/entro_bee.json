@@ -1,0 +1,18 @@
+{
+    "type": "productivebees:bee_conversion",
+    "source": "productivebees:fluix",
+    "result": "productivebees:entro",
+    "item": {
+        "item": "minecraft:entro_block"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:fluix"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:entro"
+        }
+    ]
+}

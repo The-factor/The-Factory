@@ -2,17 +2,14 @@
     "primaryColor": "#55eb34",
     "secondaryColor": "#34eb58",
     "particleColor": "#55eb34",
-    "description": "Entro crystals? not being automated? we'll see about that.",
+    "description": "Entro crystal automation!",
     "flowerItem": "extendedae:entro_block",
-    "selfbreed": true,
     "createComb": true,
-    "fireproof": true,
-    "attackResponse": "fire",
-    "attributes": {
-        "endurance": 3,
-        "behavior": 2,
-        "productivity": 2
-    },
+    "renderer": "default_crystal",
     "conditions": [
+      {
+        "modid": "extendedae",
+        "type": "neoforge:mod_loaded"
+      }
     ]
   } 

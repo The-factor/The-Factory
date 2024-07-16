@@ -9,5 +9,83 @@
 	id: "20A6BB47F02670DF"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "71477858C5C6FABE"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7785D3E1A9DBF05D"
+				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "mahoutsukai:guidebook" }
+				type: "item"
+			}]
+			x: 2.535714285714299d
+			y: -3.7678571428571423d
+		}
+		{
+			dependencies: ["3D60968E28DC0B39"]
+			id: "2FA437527F842978"
+			tasks: [{
+				id: "5B27719CAC0F8CEB"
+				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "mahoutsukai:clarent" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D60968E28DC0B39"]
+			id: "114FAFEE75A55C70"
+			tasks: [{
+				id: "605BCEC5E5F8D1C8"
+				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "mahoutsukai:caliburn" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D60968E28DC0B39"]
+			id: "431A6DACBC532E9C"
+			tasks: [{
+				id: "2CD70EBB30F128B9"
+				item: { components: { "mahoutsukai:colors_mahou": { colors: [ ] }, "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "mahoutsukai:morgan" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71477858C5C6FABE"]
+			id: "3D60968E28DC0B39"
+			tasks: [{
+				id: "58309A1A0931BA4E"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D60968E28DC0B39"]
+			id: "001901B8B22E2DE7"
+			tasks: [{
+				id: "050379A933AB12EC"
+				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "mahoutsukai:mystic_staff" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D60968E28DC0B39"]
+			id: "65626C8A063243DA"
+			tasks: [{
+				id: "7A4A6DC421224363"
+				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "mahoutsukai:spatial_disorientation_staff" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+	]
 }

@@ -9,6 +9,15 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
+	icon: {
+		components: {
+			"mahoutsukai:strengthening_mahou": {
+				strengthened: 0b
+				uses: 0
+			}
+		}
+		id: "factory:medal"
+	}
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

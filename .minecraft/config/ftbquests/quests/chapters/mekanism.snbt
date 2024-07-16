@@ -6,5 +6,49 @@
 	id: "0A06B56F13FC78E1"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"mahoutsukai:strengthening_mahou": {
+						strengthened: 0b
+						uses: 0
+					}
+				}
+				id: "mekanism:ingot_osmium"
+			}
+			id: "2F6FBD815D81CF9A"
+			tasks: [{
+				count: 16L
+				id: "26B5470CDD3A115A"
+				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F6FBD815D81CF9A"]
+			id: "287E469DA8D74B88"
+			tasks: [{
+				count: 3L
+				id: "58A2E0905DE1F484"
+				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["287E469DA8D74B88"]
+			id: "0C4C60379207F6D2"
+			tasks: [{
+				id: "59D6834A54E5A3E4"
+				item: { components: { "mahoutsukai:strengthening_mahou": { strengthened: 0b, uses: 0 } }, count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+	]
 }
