@@ -10,4 +10,4 @@ Quest system (comes in half of 1.5 then the rest of the quests in 2.0!)
 ~130 mods of fun!
 
 Information:
-, [Curseforge Factory](https://www.curseforge.com/minecraft/modpacks/thefactory1)
+[Curseforge Factory](https://www.curseforge.com/minecraft/modpacks/thefactory1)
